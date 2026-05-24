@@ -5,8 +5,6 @@ Carlo Tree Search (MCTS)** and the **RAVE** (Rapid Action Value
 Estimation) enhancement. Plays the standard 11×11 game over a socket
 protocol, with full support for the pie ("swap") rule.
 
-Developed for COMP34812 (AI & Games) at the University of Manchester.
-
 ---
 
 ## Problem
@@ -107,8 +105,8 @@ python test.py
 
 ## Notes
 
-* The submission folder was renamed from `Group3` to `GroupAgent`
-  before publishing this repo, so `test.py`, `run_hex.bat`, and
+* The team folder was renamed from `Group3` to `GroupAgent` before
+  publishing this repo, so `test.py`, `run_hex.bat`, and
   `update_meta.py` still reference the old path. Either rename
   `agents/GroupAgent` → `agents/Group3` locally, or update those three
   files before running the scripts.
